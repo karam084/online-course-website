@@ -1,0 +1,31 @@
+@font-face {
+  font-family: Poppins;
+  src: url(./fonts/Poppins/Poppins-SemiBold.ttf);
+}
+
+@font-face {
+  font-family: PoppinsLight;
+  src: url(./fonts/Poppins/Poppins-Light.ttf);
+}
+
+@import url(//db.onlinewebfonts.com/c/4d309d1a449d052dcbc2f893306274fd?family=COCOGOOSE+LETTERPRESS);
+
+:root {
+  --first-color: #272a31;
+  --second-color: #ec5242;
+  --third-color: #d3d3d3;
+}
+
+body {
+  font-family: 'Poppins', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  width: 768px;
+  height: auto;
+}
+
+.humb {
+  display: flex;
+  flex-direction: column;
+  font-size: 44px;
+  list-style: none;
+}
