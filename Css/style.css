@@ -122,8 +122,7 @@ a {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-image:
-    linear-gradient(rgba(54, 45, 145, 0.3), rgba(5, 4, 46, 0.7)),
+  background-image: linear-gradient(rgba(54, 45, 145, 0.3), rgba(5, 4, 46, 0.7)),
     url('/src-image/homepage.jpg');
   background-repeat: no-repeat;
   width: 100%;
@@ -252,7 +251,7 @@ a.visit:hover {
 .feature-s {
   display: flex;
   flex-flow: wrap;
-  flex-direction: column;
+  flex-direction: row;
   margin-top: 41px;
   margin-left: 32px;
   align-items: center;
