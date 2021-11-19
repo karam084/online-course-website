@@ -30,10 +30,10 @@ body {
   list-style: none;
 }
 
-/*.fa-linkedin-in,
+/* .fa-linkedin-in,
 .fa-twitter {
   color: white;
-}*/
+} */
 
 .header-con {
   display: flex;
@@ -77,6 +77,11 @@ a img {
   font-size: 16px;
   font-weight: 500;
 }
+
+a {
+  text-decoration: none;
+}
+
 .logout-de a {
   color: white;
 }
@@ -96,12 +101,20 @@ a img {
   transition: 0.3s ease;
 }
 
-.menu a:hover {
-  color: blue;
+.learn-more a {
+  font-size: 1rem;
+  padding: 20px 49px;
+  background-color: rgb(22, 18, 109);
+  color: white;
+  font-weight: 600;
+  gap: 30px;
+  border-radius: 5px;
+  margin-left: 10px;
+  margin-top: 487px;
 }
 
-a {
-  text-decoration: none;
+.menu a:hover {
+  color: blue;
 }
 
 .home {
@@ -109,7 +122,8 @@ a {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-image: linear-gradient(rgba(54, 45, 145, 0.3), rgba(5, 4, 46, 0.7)),
+  background-image:
+    linear-gradient(rgba(54, 45, 145, 0.3), rgba(5, 4, 46, 0.7)),
     url('/src-image/homepage.jpg');
   background-repeat: no-repeat;
   width: 100%;
@@ -132,18 +146,6 @@ a {
   font-size: 0.9rem;
   letter-spacing: 1px;
   line-height: 25px;
-}
-
-.learn-more a {
-  font-size: 1rem;
-  padding: 20px 49px;
-  background-color: rgb(22, 18, 109);
-  color: white;
-  font-weight: 600;
-  gap: 30px;
-  border-radius: 5px;
-  margin-left: 10px;
-  margin-top: 487px;
 }
 
 .learn-more {
@@ -249,8 +251,8 @@ a.visit:hover {
 
 .feature-s {
   display: flex;
-  flex-direction: column;
   flex-flow: wrap;
+  flex-direction: column;
   margin-top: 41px;
   margin-left: 32px;
   align-items: center;
